@@ -1,0 +1,39 @@
+# Base Configuration for Artella Projects
+
+# Define configuration variables for project
+- project:
+  name: "Artella"
+  env_variable: "ARTELLA_PROJECT"
+  shelf_icon: ""
+  tray_icon: ""
+  number: ""
+  id: ""
+  icon: "artella"
+  version_file: "version.json"
+  naming_file: "naming.json"
+  url: ""
+  paths_to_register:
+    - "pipeline"
+    - "pipeline/externals"
+  tag_types: []
+  outliner_categories: []
+  shot_regex: "*"
+  shot_file_types: []
+  shot_extension: ".shot"
+  shaders_extension: ".ashader"
+  playblast_presets_url: ""
+
+# Define configuration variables for project assets
+- asset:
+  data_filename: "data.json"
+  types: []
+  files: []
+  must_files: []
+  ignored_paths: []
+  wip_status: "working"
+  publish_status: "published"
+
+# Define configuration variables for project progress bar
+- progress_bar:
+  - color0: "255, 255, 255"
+  - color1: "255, 255, 255"
