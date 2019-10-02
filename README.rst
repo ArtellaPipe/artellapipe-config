@@ -14,4 +14,4 @@ artellapipe-config
     :target: https://pypi.org/project/artellapipe-config/
 
 .. image:: https://img.shields.io/badge/code_style-pep8-blue
-    :target: https://pypi.org/project/artellapipe-config/
+    :target: https://www.python.org/dev/peps/pep-0008/
