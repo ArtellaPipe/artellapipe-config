@@ -7,7 +7,8 @@ Module that contains tests for artellapipe-config
 
 import pytest
 
+from artellapipe.config import __version__
+
 
 def test_version():
-    from artellapipe.config import __version__
     assert __version__.__version__
