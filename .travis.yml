@@ -10,7 +10,7 @@ script:
   # Run pep8 on all .py files in all sub-folders
   # (ignore "E402: module level import not at top of file" because of use case sys.path.append('..'); import <module>)
   - find . -name \*.py -exec pycodestyle --ignore=E402 {} +
-  - pytest --cov=source
+  - pytest --cov=artellapipe
 after_success:
   - coveralls
 deploy:
