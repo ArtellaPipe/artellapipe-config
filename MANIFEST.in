@@ -1,1 +1,1 @@
-include source/artellapipe/config/*.json
+include artellapipe/config/*.json
