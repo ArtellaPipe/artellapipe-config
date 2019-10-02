@@ -5,7 +5,7 @@ install:
   - pip install pytest
   - pip install pytest-cov
   - pip install coveralls
-- python setup.py install
+  - python setup.py install
 script:
 # Run pep8 on all .py files in all sub-folders
 # (ignore "E402: module level import not at top of file" because of use case sys.path.append('..'); import <module>)
