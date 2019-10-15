@@ -20,9 +20,9 @@ from tpPyUtils import path as path_utils
 
 class ArtellaConfigs(object):
 
-    CHANGELOG_FILE_NAME = 'changelog.json'
-    CONFIG_FILE_NAME = 'config.json'
-    NAMING_FILE_NAME = 'naming.json'
+    CHANGELOG_FILE_NAME = 'changelog.yml'
+    CONFIG_FILE_NAME = 'config.yml'
+    NAMING_FILE_NAME = 'naming.yml'
 
     def get_configurations_path(self):
         """
