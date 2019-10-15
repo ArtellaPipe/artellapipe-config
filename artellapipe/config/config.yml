@@ -8,7 +8,8 @@ project:
   tray_icon_name: ${project_lower}
   id_number: ""
   id: ""
-  icon: ${project_lower}
+  icon_resources_folder: "logos"
+  icon_name: ${project_lower}
   version_file: "__version__.py"
   naming_file: "naming.json"
   emails: []
