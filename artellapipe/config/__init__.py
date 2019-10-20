@@ -15,8 +15,6 @@ __email__ = "tpovedatd@gmail.com"
 import os
 import inspect
 
-from tpPyUtils import path as path_utils
-
 
 class ArtellaConfigs(object):
 
@@ -50,6 +48,7 @@ class ArtellaConfigs(object):
         :return: str
         """
 
+        from tpPyUtils import path as path_utils
         return path_utils.clean_path(os.path.join(self.get_configurations_path(), self.CHANGELOG_FILE_NAME))
 
     def get_project_configuration_file(self):
@@ -58,6 +57,7 @@ class ArtellaConfigs(object):
         :return: str
         """
 
+        from tpPyUtils import path as path_utils
         return path_utils.clean_path(os.path.join(self.get_configurations_path(), self.CONFIG_FILE_NAME))
 
     def get_naming_file(self):
@@ -66,4 +66,5 @@ class ArtellaConfigs(object):
         :return: str
         """
 
+        from tpPyUtils import path as path_utils
         return path_utils.clean_path(os.path.join(self.get_configurations_path(), self.NAMING_FILE_NAME))
