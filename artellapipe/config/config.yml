@@ -5,7 +5,7 @@ project:
   name: ${title}
   env_var: ${project_upper + "_PROJECT"}
   shelf_icon_name: ${project_lower + "_shelf"}
-  tray_icon_name: ${project_lower}
+  tray_icon_name: ${project_lower + "_tray"}
   id_number: ""
   id: ""
   icon_resources_folder: "logos"
