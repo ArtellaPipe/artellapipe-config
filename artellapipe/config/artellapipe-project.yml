@@ -1,6 +1,5 @@
 # Base Configuration for Artella Projects
 
-# Define configuration variables for project
 project:
   name: ${title}
   env_var: ${project_upper + "_PROJECT"}
