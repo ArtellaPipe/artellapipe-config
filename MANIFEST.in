@@ -1,2 +1,4 @@
-include artellapipe/config/*.json
-include artellapipe/config/*.yml
+include artellapipe/config/development/*.json
+include artellapipe/config/development/*.yml
+include artellapipe/config/production/*.json
+include artellapipe/config/production/*.yml
