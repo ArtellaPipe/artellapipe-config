@@ -4,7 +4,7 @@
 name: Alembic Manager
 
 # Unique ID for the tool
-id: AlembicManager
+id: artellapipe-tools-alembicmanager
 
 # Defines logo name of the tool
 logo: alembicmanager_logo
@@ -53,7 +53,7 @@ menu:
   - label: General
     type: menu
     children:
-      - id: AlembicManager
+      - id: artellapipe-tools-alembicmanager
         type: toolset
 
 # Tool Shelf definition

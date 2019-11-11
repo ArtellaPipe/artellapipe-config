@@ -4,7 +4,7 @@
 name: Artella Manager
 
 # Unique ID for the tool
-id: ArtellaManager
+id: artellapipe-tools-artellamanager
 
 # Defines logo name of the tool
 logo: artellamanager_logo
@@ -53,7 +53,7 @@ menu:
   - label: Artella
     type: menu
     children:
-      - id: ArtellaManager
+      - id: artellapipe-tools-artellamanager
         type: toolset
 
 # Tool Shelf definition

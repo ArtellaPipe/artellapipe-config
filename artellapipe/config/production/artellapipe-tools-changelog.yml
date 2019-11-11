@@ -4,7 +4,7 @@
 name: Changelog
 
 # Unique ID for the tool
-id: Changelog
+id: artellapipe-tools-changelog
 
 # Defines logo name of the tool
 logo: changelog_logo
@@ -48,7 +48,7 @@ menu:
   - label: General
     type: menu
     children:
-      - id: Changelog
+      - id: artellapipe-tools-changelog
         type: toolset
 
 # Tool Shelf definition

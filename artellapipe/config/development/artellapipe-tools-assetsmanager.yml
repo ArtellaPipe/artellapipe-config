@@ -4,7 +4,7 @@
 name: Assets Manager
 
 # Unique ID for the tool
-id: AssetsManager
+id: artellapipe-tools-assetsmanager
 
 # Defines logo name of the tool
 logo: assetsmanager_logo
@@ -53,7 +53,7 @@ menu:
   - label: Assets
     type: menu
     children:
-      - id: AssetsManager
+      - id: artellapipe-tools-assetsmanager
         type: toolset
 
 # Tool Shelf definition

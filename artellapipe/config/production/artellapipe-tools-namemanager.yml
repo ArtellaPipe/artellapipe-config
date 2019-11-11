@@ -4,7 +4,7 @@
 name: Name Manager
 
 # Unique ID for the tool
-id: NameManager
+id: artellapipe-tools-namemanager
 
 # Defines logo name of the tool
 logo: namemanager_logo
@@ -45,7 +45,7 @@ menu:
   - label: TD
     type: menu
     children:
-      - id: NameManager
+      - id: artellapipe-tools-namemanager
         type: toolset
 
 # Tool Shelf definition

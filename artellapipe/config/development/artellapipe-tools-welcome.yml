@@ -4,7 +4,7 @@
 name: Welcome
 
 # Unique ID for the tool
-id: WelcomeDialog
+id: artellapipe-tools-welcome
 
 # Description of the tool
 description: Tool that shows useful information for newcomers

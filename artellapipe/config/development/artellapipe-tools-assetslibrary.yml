@@ -4,7 +4,7 @@
 name: Assets Library
 
 # Unique ID for the tool
-id: AssetsLibrary
+id: artellapipe-tools-assetslibrary
 
 # Defines logo name of the tool
 logo: assetslibrary_logo
@@ -48,7 +48,7 @@ menu:
   - label: Assets
     type: menu
     children:
-      - id: AssetsLibrary
+      - id: artellapipe-tools-assetslibrary
         type: toolset
 
 # Tool Shelf definition

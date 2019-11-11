@@ -4,7 +4,7 @@
 name: Tool Box
 
 # Unique ID for the tool
-id: ToolBox
+id: artellapipe-tools-toolbox
 
 # Description of the tool
 description: Tool tool to manage the rest of the tools
