@@ -1,8 +1,8 @@
   # Base Configuration for Artella Assets
 
 data_filename: "data.json"
-types: []
-files: []
+types: {}
+files: {}
 must_files: []
 ignored_paths: []
 wip_status: "working"
