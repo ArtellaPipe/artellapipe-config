@@ -4,7 +4,7 @@
 name: Google Drive
 
 # Unique ID for the tool
-id: Drive
+id: artellapipe-libs-drive
 
 # Defines modules that will be skipped during import
 skip_modules:
