@@ -46,14 +46,12 @@ menu:
     type: menu
     children:
       - id: artellapipe-tools-namemanager
-        type: toolset
+        type: tool
 
 # Tool Shelf definition
 shelf:
-  name: ${project}
-  children:
-    - id: ${project + ".shelf.namemanager"}
-      displayLabel: False
-      children:
-        - id: NameManager
-          type: toolset
+  - name: TD
+    children:
+      - id: artellapipe-tools-namemanager
+        displayLabel: False
+        type: tool

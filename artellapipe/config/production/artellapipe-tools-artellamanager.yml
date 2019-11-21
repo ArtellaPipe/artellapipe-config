@@ -54,14 +54,12 @@ menu:
     type: menu
     children:
       - id: artellapipe-tools-artellamanager
-        type: toolset
+        type: tool
 
 # Tool Shelf definition
 shelf:
-  name: ${project}
-  children:
-    - id: ${project + ".shelf.artellamanager"}
-      displayLabel: False
-      children:
-        - id: ArtellaManager
-          type: toolset
+  - name: Artella
+    children:
+      - id: artellapipe-tools-artellamanager
+        displayLabel: False
+        type: tool

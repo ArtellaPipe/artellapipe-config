@@ -31,9 +31,18 @@ menu_ui:
 # Defines the ID used by Sentry to monitorize error traces
 sentry_id: https://9d2160bb725a4fbcacb4d72aa9df6eaf@sentry.io/1797903
 
+# Tool Menu definition where this tool is registered
 menu:
   - label: General
     type: menu
     children:
       - id: artellapipe-tools-bugtracker
-        type: toolset
+        type: tool
+
+# Tool Shelf definition
+shelf:
+  - name: General
+    children:
+      - id: artellapipe-tools-bugtracker
+        displayLabel: False
+        type: tool

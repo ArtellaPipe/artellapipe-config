@@ -49,17 +49,15 @@ menu:
     type: menu
     children:
       - id: artellapipe-tools-lightrigsmanager
-        type: toolset
+        type: tool
 
 # Tool Shelf definition
 shelf:
-  name: ${project}
-  children:
-    - id: ${project + ".shelf.lightrigsmanager"}
-      displayLabel: False
-      children:
-        - id: LightRigsManager
-          type: toolset
+  - name: Lighting
+    children:
+      - id: artellapipe-tools-lightrigsmanager
+        displayLabel: False
+        type: tool
 
 # Defines path where light rigs are located relative to the assets path
 lightrigs_path: 'lightrigs'

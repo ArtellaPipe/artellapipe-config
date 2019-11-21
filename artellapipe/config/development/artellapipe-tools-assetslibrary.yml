@@ -49,16 +49,12 @@ menu:
     type: menu
     children:
       - id: artellapipe-tools-assetslibrary
-        type: toolset
+        type: tool
 
 # Tool Shelf definition
 shelf:
-  name: ${project}
-  children:
-    - id: ${project + ".shelf.assetslibrary"}
-      displayLabel: False
-      children:
-        - id: AssetsLibrary
-          type: toolset
-
-supported_files: {}
+  - name: Assets
+    children:
+      - id: artellapipe-tools-assetslibrary
+        displayLabel: False
+        type: tool

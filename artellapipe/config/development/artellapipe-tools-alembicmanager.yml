@@ -54,14 +54,12 @@ menu:
     type: menu
     children:
       - id: artellapipe-tools-alembicmanager
-        type: toolset
+        type: tool
 
 # Tool Shelf definition
 shelf:
-  name: ${project}
-  children:
-    - id: ${project + ".shelf.alembicmanager"}
-      displayLabel: False
-      children:
-        - id: AlembicManager
-          type: toolset
+  - name: General
+    children:
+      - id: artellapipe-tools-alembicmanager
+        displayLabel: False
+        type: tool

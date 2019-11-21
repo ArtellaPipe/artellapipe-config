@@ -61,8 +61,8 @@ menu:
 
 # Defines settings for project shelf
 shelf:
+  name: ${title}
   icon_name: ${project_lower + "_shelf"}
-  load_at_startup: True
 
 # Defines tray
 tray:

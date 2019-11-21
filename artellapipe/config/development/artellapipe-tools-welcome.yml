@@ -39,9 +39,9 @@ import_order: []
 #  type: menu
 #  childrens:
 #    - id: test
-#      type: toolset
+#      type: tool
 #    - id: test2
-#    - type: toolset
+#    - type: tool
 
 # Tool Shelf definition
 #shelf:
@@ -51,4 +51,4 @@ import_order: []
 #      displayLabel: False
 #      children:
 #        - id: test
-#          type: toolset
+#          type: tool
