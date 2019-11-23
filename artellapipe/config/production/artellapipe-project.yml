@@ -1,32 +1,61 @@
 # Base Configuration for Artella Projects
 
+# Defines the name of the project
 name: ${title}
+
+# Defines the environment variable that stores project path
 env_var: ${project_upper + "_PROJECT"}
+
+# Defines of the project tray icon name
 tray_icon_name: ${project_lower + "_tray"}
+
+# Defines the Artella ID number
 id_number: ""
+
+# Defines the Artella Project ID
 id: ""
+
+# Defines the ID name used by DCC tags
+tag_type_id: ${project_upper + "_TAG"}
+
+# Defines the name of the tolder that contains logos
 icon_resources_folder: "logos"
+
+# Defines the name of the icon for the project
 icon_name: ${project_lower}
+
+# Defines the colors used in menubar and title on tools when development mode is on
 dev_color0: "75, 165, 135, 150"
 dev_color1: "65, 145, 120, 100"
+
+# Defines then name of the file that manages project tools version
 version_file: "__version__.py"
-naming_file: "naming.json"
+
+# Defines the list of emails to notify when a tool is broken
 emails: []
+
+# Defines the URL of the project
 url: ""
+
+# Defines the default icon for Artella projects
 icon: "artella"
+
+# Defines the name of the image used as background on tool headers
 title_background: "title_background"
+
+# Defines the URL where project tools documentations is located
 documentation_url: ""
+
+# Defines modules which paths should be registered in sys.path
 modules_to_register:
   - bootstrap
   - externals
-paths_to_register: []
-tag_types: []
-outliner_categories: {}
-departments: []
 
-# Define configuration variables for project shaders
-shaders:
-  extension: ".ashader"
+# Defines paths that should be added to sys.path
+paths_to_register: []
+
+# Defines list of departments that
+departments: []
 
 # Define configuration variables for project playblast
 playblast:
