@@ -38,14 +38,19 @@ logging_file: ${join(filename, "__logging__.ini")}
 
 # Menu representation of this tool
 menu_ui:
-  label: "Playblast Manager"
+  label: "Playblasts Manager"
   is_checkable: False
   is_checked: False
   load_on_startup: False
 
 # Tool Menu definition where this tool is registered
 menu:
-  - label: General
+  - label: Layout
+    type: menu
+    children:
+      - id: artellapipe-tools-playblastmanager
+        type: tool
+  - label: Animation
     type: menu
     children:
       - id: artellapipe-tools-playblastmanager
@@ -53,7 +58,12 @@ menu:
 
 # Tool Shelf definition
 shelf:
-  - name: General
+  - name: Layout
+    children:
+      - id: artellapipe-tools-playblastmanager
+        displayLabel: False
+        type: tool
+  - name: Animation
     children:
       - id: artellapipe-tools-playblastmanager
         displayLabel: False
