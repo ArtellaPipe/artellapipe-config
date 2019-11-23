@@ -9,6 +9,9 @@ id: artellapipe-tools-playblastmanager
 # Defines logo name of the tool
 logo: playblastmanager_logo
 
+# Defines icon of the tool
+icon: video
+
 # Description of the tool
 description: Tool to generate customized playblasts
 

@@ -57,10 +57,6 @@ paths_to_register: []
 # Defines list of departments that
 departments: []
 
-# Define configuration variables for project playblast
-playblast:
-  presets_url: ""
-
 # Define configuration variables for project shots
 shot:
   regex: "*"
