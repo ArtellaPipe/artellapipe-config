@@ -1,7 +1,4 @@
-# Base Configuration for Artella Playblasts
-
-# Defines path where Playblast presets are located
-presets_paths: []
+# Base Configuration for Artella Playblasts in Maya
 
 options:
   camera:
