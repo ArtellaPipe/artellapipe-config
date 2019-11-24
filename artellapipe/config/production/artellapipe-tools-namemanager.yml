@@ -44,6 +44,7 @@ menu_ui:
 menu:
   - label: TD
     type: menu
+    only_dev: True
     children:
       - id: artellapipe-tools-namemanager
         type: tool
@@ -51,6 +52,7 @@ menu:
 # Tool Shelf definition
 shelf:
   - name: TD
+    only_dev: True
     children:
       - id: artellapipe-tools-namemanager
         displayLabel: False
