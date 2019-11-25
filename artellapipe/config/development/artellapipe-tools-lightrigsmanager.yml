@@ -59,5 +59,8 @@ shelf:
         displayLabel: False
         type: tool
 
-# Defines path where light rigs are located relative to the assets path
-lightrigs_path: 'lightrigs'
+# Defines the file type for light rigs
+lightrig_file_type: 'lightrig'
+
+# Defines the template used to retrieve light rigs location
+lightrigs_template: 'lightrigs'
