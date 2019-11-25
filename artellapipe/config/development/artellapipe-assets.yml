@@ -6,9 +6,6 @@ data_filename: "data.json"
 # Defines dictionary of asset types (Props, Characters, etc) used by the project
 types: {}
 
-# Defines dictionary of file types (textures, model, etc) used by the project
-files: {}
-
 # Defines list of files that must be available to consider an asset published
 must_files: []
 
@@ -29,9 +26,6 @@ default_thumb: 'default'
 
 # Defines the default name used by assets
 default_name: 'New Asset'
-
-# Defines dictionary that maps extension with reference functions and file types
-reference_extension_functions: {}
 
 # Defines dictionary with default asset data info
 data:
