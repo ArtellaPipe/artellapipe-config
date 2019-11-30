@@ -4,7 +4,7 @@
 name: Artella
 
 # Unique ID for the tool
-id: Artella
+id: artellapipe-libs-artella
 
 app:
   name: lifecycler                                  # Defines the name of the Artella executable
