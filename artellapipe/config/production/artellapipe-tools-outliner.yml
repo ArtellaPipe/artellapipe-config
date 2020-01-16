@@ -1,4 +1,4 @@
-# Base Configuration file for artellapipe-tools-alembicmanager
+# Base Configuration file for artellapipe-tools-outliner
 
 # Defines tool name
 name: Outliner
@@ -55,3 +55,6 @@ shelf:
       - id: artellapipe-tools-outliner
         displayLabel: False
         type: tool
+
+# Defines the outliners that should be added
+outliners: {}

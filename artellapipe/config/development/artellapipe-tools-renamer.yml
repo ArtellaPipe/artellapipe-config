@@ -1,31 +1,31 @@
-# Base Configuration file for artellapipe-tools-outliner
+# Base Configuration file for artellapipe-tools-renamer
 
 # Defines tool name
-name: Outliner
+name: Renamer
 
 # Unique ID for the tool
-id: artellapipe-tools-outliner
+id: artellapipe-tools-renamer
 
 # Defines logo name of the tool
-logo: outliner_logo
+logo: renamer_logo
 
 # Description of the tool
-description: Tool that manage the assets in a DCC scene
+description: Tool to rename DCC objects in an easy way
 
 # URL to tool documentation web page
 url: www.google.es
 
 # Tags relatedi with this tool
-tags: ['outliner', 'asset']
+tags: ['renamer', 'tpNameIt']
 
 # Defines the ID used by Sentry to monitorize error traces
-sentry_id: https://f489c1a2f43c4c629ba6f08f6c3ef727@sentry.io/1764485
+sentry_id: https://0e351be2ec4d4360980db9b85980e176@sentry.io/1864142
 
 # Directory where tool logger will be created
 logger_dir: ${join(user, "artellapipe", "logs", "tools")}
 
 # Default logger level used by tool logger
-logger_level: WARNING
+logger_level: INFO
 
 # Directory where tool resources are located
 resources_path: ${join(filename, "resources")}
@@ -35,7 +35,7 @@ logging_file: ${join(filename, "__logging__.ini")}
 
 # Menu representation of this tool
 menu_ui:
-  label: "Outliner"
+  label: "Renamer"
   is_checkable: False
   is_checked: False
   load_on_startup: False
@@ -45,16 +45,13 @@ menu:
   - label: General
     type: menu
     children:
-      - id: artellapipe-tools-outliner
+      - id: artellapipe-tools-renamer
         type: tool
 
 # Tool Shelf definition
 shelf:
   - name: General
     children:
-      - id: artellapipe-tools-outliner
+      - id: artellapipe-tools-renamer
         displayLabel: False
         type: tool
-
-# Defines the outliners that should be added
-outliners: {}

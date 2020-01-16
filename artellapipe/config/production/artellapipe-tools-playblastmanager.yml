@@ -68,3 +68,9 @@ shelf:
       - id: artellapipe-tools-playblastmanager
         displayLabel: False
         type: tool
+
+# Defines list of plugins to enable for Playblast Manager
+plugins: {}
+
+# Defines the tokens for Playblast Manager
+tokens: {}

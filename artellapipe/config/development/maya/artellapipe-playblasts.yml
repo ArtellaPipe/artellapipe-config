@@ -1,4 +1,4 @@
-# Base Configuration for Artella Playblasts in Maya
+# Base Configuration for Artella Playblasts in Maya used by Artella Playblasts Manager (not the tool)
 
 options:
   camera:

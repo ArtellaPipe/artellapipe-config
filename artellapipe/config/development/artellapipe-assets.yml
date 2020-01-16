@@ -27,6 +27,12 @@ default_thumb: 'default'
 # Defines the default name used by assets
 default_name: 'New Asset'
 
+# Shading file type used by assets
+shading_file_type: 'shading'
+
+# Shaders Mapping file type used by assets
+shaders_mapping_file_type: 'shadersmapping'
+
 # Defines dictionary with default asset data info
 data:
   id_attribute: 'id'

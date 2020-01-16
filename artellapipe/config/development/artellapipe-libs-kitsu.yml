@@ -14,3 +14,6 @@ project_url: ""
 
 # Defines Gazy API url of the Kitsu project
 gazu_api: ""
+
+# Defines custom attribute to use to identify Kitsu assets
+custom_id_attribute: ""
