@@ -4,4 +4,4 @@
 pytest
 pytest-cov
 coveralls
-tpPyUtils
+tpDcc-libs-python
