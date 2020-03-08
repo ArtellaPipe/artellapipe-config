@@ -102,12 +102,12 @@ tray:
     - label: ${title + " Documentation"}
       icon: manual
       tip: ${"Open " + title + " Tools Documentation webpage"}
-      command: "self._project.open_documentation()"
+      command: "import artellapipe; artellapipe.project.open_documentation()"
     - label: ${title + " Web"}
       icon: ${project_lower + "_tray"}
       tip: ${"Open " + title + " Project webpage"}
-      command: "self._project.open_webpage()"
+      command: "import artellapipe; artellapipe.project.open_webpage()"
     - label: ${title + " Artella Project"}
       icon: artella
       tip: ${"Open " + title + " Artella Project webpage"}
-      command: "self._project.open_artella_project_url()"
+      command: "import artellapipe; artellapipe.project.open_artella_project_url()"
