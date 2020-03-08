@@ -37,6 +37,12 @@ emails: []
 # Defines the URL of the project
 url: ""
 
+# Defines Slack token of the project
+slack_token: ""
+
+# Defines Slack channel used by Slack Bot
+slack_channel: ""
+
 # Defines the default icon for Artella projects
 icon: "artella"
 

@@ -12,6 +12,12 @@ default_thumb: 'default'
 # Defines the default name used by shot
 default_name: 'New Shot'
 
+# Defines start frame for all shots
+start_frame: 101
+
+# File Type used to define shot layouts
+shot_layout_file_type: 'shot_layout'
+
 # Defines dictionary with default shot data info
 data:
   id_attribute: 'id'
@@ -19,6 +25,4 @@ data:
   thumb_attribute: 'thumb'
   description_attribute: 'description'
   sequence_attribute: 'sequence_name'
-
-# Defines the shot regex used for shot names
-shot_regex: (\A[^_]+_\d{2,2}_\d{2,3})
+  shot_rule: 'shot'

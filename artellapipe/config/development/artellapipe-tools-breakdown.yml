@@ -1,34 +1,34 @@
-# Base Configuration file for artellapipe-tools-assetsmanager
+# Base Configuration file for artellapipe-tools-breakdown
 
 # Defines tool name
-name: Assets Manager
+name: Breakdown Editor
 
 # Unique ID for the tool
-id: artellapipe-tools-assetsmanager
+id: artellapipe-tools-breakdown
 
 # Defines logo name of the tool
-logo: assetsmanager_logo
+logo: breakdown_logo
 
 # Defines icon of the tool
-icon: control_panel
+#icon: control_panel
 
 # Description of the tool
-description: Tool to easily manage project assets
+description: Tool to update breakdown for specific shots
 
 # URL to tool documentation web page
 url: www.google.es
 
 # Tags relatedi with this tool
-tags: ['assets', 'manager']
+tags: ['layout', 'shot', 'breakdown']
 
 # Defines the ID used by Sentry to monitorize error traces
-sentry_id: https://503219603a654de1a4f34d677816a592@sentry.io/1764558
+#sentry_id: https://503219603a654de1a4f34d677816a592@sentry.io/1764558
 
 # Directory where tool logger will be created
 logger_dir: ${join(user, "artellapipe", "logs", "tools")}
 
 # Default logger level used by tool logger
-logger_level: WARNING
+logger_level: INFO
 
 # Directory where tool resources are located
 resources_path: ${join(filename, "resources")}
@@ -43,23 +43,23 @@ import_order:
 
 # Menu representation of this tool
 menu_ui:
-  label: "Assets Manager"
+  label: "Breakdown Editor"
   is_checkable: False
   is_checked: False
   load_on_startup: False
 
 # Tool Menu definition where this tool is registered
 menu:
-  - label: Assets
+  - label: Layout
     type: menu
     children:
-      - id: artellapipe-tools-assetsmanager
+      - id: artellapipe-tools-breakdown
         type: tool
 
 # Tool Shelf definition
 shelf:
-  - name: Assets
+  - name: Layout
     children:
-      - id: artellapipe-tools-assetsmanager
+      - id: artellapipe-tools-breakdown
         displayLabel: False
         type: tool
