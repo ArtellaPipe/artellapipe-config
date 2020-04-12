@@ -9,11 +9,20 @@ env_var: ${project_upper + "_PROJECT"}
 # Defines of the project tray icon name
 tray_icon_name: ${project_lower + "_tray"}
 
+# Defines the Artella project type (indie or enterprise)
+project_type: indie
+
 # Defines the Artella ID number
 id_number: ""
 
 # Defines the Artella Project ID
 id: ""
+
+# Defines Assets folder of the current project in Artella server
+assets_folder: "Assets"
+
+# Defines Production folder of the current project in Artella server
+production_folder: "Production"
 
 # Defines the ID name used by DCC tags
 tag_type_id: ${project_upper + "_TAG"}
