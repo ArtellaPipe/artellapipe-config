@@ -120,3 +120,7 @@ tray:
       icon: artella
       tip: ${"Open " + title + " Artella Project webpage"}
       command: "import artellapipe; artellapipe.project.open_artella_project_url()"
+    - label: ${title + " Folder"}
+      icon: folder
+      tip: ${"Open " + title + " Project Local folder"}
+      command: "import artellapipe; artellapipe.project.open_folder()"
