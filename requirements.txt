@@ -1,7 +1,4 @@
 # ===================================================================
 # artellapipe-config requirements file
 # ===================================================================
-pytest
-pytest-cov
-coveralls
-tpDcc-libs-python
+tpDcc-libs-python==0.0.11
