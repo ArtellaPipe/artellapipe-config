@@ -12,6 +12,9 @@ tray_icon_name: ${project_lower + "_tray"}
 # Defines the Artella project type (indie or enterprise)
 project_type: "indie"
 
+# Defines the Artella project URL in Artella
+artella_url: ""
+
 # Defines the Artella ID number
 id_number: ""
 

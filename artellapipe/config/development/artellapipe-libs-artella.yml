@@ -7,10 +7,16 @@ name: Artella
 id: artellapipe-libs-artella
 
 app:
-  name: lifecycler                                    # Defines the name of the Artella executable
-  plugin: Artella.py                                  # Defines the name of the Artella plugin
-  root_prefix: ART_LOCAL_ROOT                         # Defines the environment variable used by Artella to reference to user local installation folder
-  next_version_filename: version_to_run_next          # Defines file name used by Artella to detect next version name
+  indie:
+    name: lifecycler                                    # Defines the name of the Artella executable
+    plugin: Artella.py                                  # Defines the name of the Artella plugin
+    root_prefix: ART_LOCAL_ROOT                         # Defines the environment variable used by Artella to reference to user local installation folder
+    next_version_filename: version_to_run_next          # Defines file name used by Artella to detect next version name
+  enterprise:
+    name: artella
+    plugin: ""
+    root_prefix: ART_LOCAL_ROOT
+    next_version_filename: ""
 
 server:
   indie:
